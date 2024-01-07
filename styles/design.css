@@ -1,5 +1,6 @@
 /* import font link */
 @import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 /* shared styles */
 * {
   margin: 0;
@@ -8,7 +9,12 @@
 }
 /* header related styles */
 .container-content {
-  background-image: linear-gradient(180deg, rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5)),url("../images/Banner\ Image.png");
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../images/Banner\ Image.png");
   width: 1320px;
   height: 600px;
   margin: 50px;
@@ -31,4 +37,50 @@
   font-weight: 900;
   padding-left: 300px;
   padding-right: 300px;
+}
+/* section-1 related styles */
+#section-1{
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    background: #fff;
+}
+.discount-title {
+  color: #f00;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 88px;
+  font-weight: 700;
+  margin-left: 6px;
+  margin-right: 8px;
+}
+.discount-info-1 {
+  color: #f00;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 48px;
+  margin-left: 6px;
+  margin-right: 8px;
+}
+.discount-info-2 {
+  color: #070211;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 16px;
+  margin-bottom: 30px;
+}
+.discount-img {
+  width: 1320px;
+  height: 600px;
+  align-items: center;
+  background-image: url("../images/New\ Year\ Photo.png");
+  background-repeat: no-repeat;
+  margin-left: 330px;
+  margin-right: 325px;
+  /* margin: 10px; */
 }
