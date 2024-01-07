@@ -15,7 +15,8 @@
       rgba(0, 0, 0, 0.5)
     ),
     url("../images/Banner\ Image.png");
-  width: 1320px;
+  max-width: 1320px;
+  width: 100%;
   height: 600px;
   margin: 50px;
   margin-left: 115px;
@@ -39,12 +40,12 @@
   padding-right: 300px;
 }
 /* section-1 related styles */
-#section-1{
-    margin-top: 120px;
-    margin-left: auto;
-    margin-right: auto;
-    align-content: center;
-    background: #fff;
+#section-1 {
+  margin-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+  background: #fff;
 }
 .discount-title {
   color: #f00;
@@ -82,5 +83,62 @@
   background-repeat: no-repeat;
   margin-left: 330px;
   margin-right: 325px;
-  /* margin: 10px; */
+}
+/* section-2 related styles */
+#section-2 {
+  margin-top: 120px;
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("../images/Vectorrr.png");
+  background-repeat: no-repeat;
+  width: 1320px;
+  height: 600px;
+  margin: 50px;
+  margin-left: 115px;
+  margin-right: 140px;
+  border-radius: 16px;
+}
+#section-2 .section-2-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.section-2-description {
+  padding-left: 40px;
+}
+.section-2-title {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 900;
+  width: 642px;
+  margin-bottom: 24px;
+  padding-top: 20px;
+}
+.section-2-title-description {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 400;
+  width: 697px;
+  padding-left: 10px;
+}
+.section-2-img {
+    width: 400px;
+    height: 464.662px;
+    padding-top: 68px;
+    padding-bottom: 68px;
+}
+.btn {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    background-color: transparent;
+    margin-top: 48px;
+    margin-left: 20px;
 }
