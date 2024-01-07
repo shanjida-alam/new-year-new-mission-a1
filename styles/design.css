@@ -150,6 +150,10 @@
   background-color: transparent;
   margin-top: 48px;
   margin-left: 20px;
+  /* transition: background-color 0.3s ease; */
+}
+.btn:hover{
+    cursor: all-scroll;
 }
 /* section-3 related styles */
 .section-3-content {
@@ -173,6 +177,9 @@
   padding-left: 575px;
   padding-right: 576px;
   padding-bottom: 110px;
+}
+#section-3 button:hover{
+    background-color: rgba(255, 0, 0, 0.39);
 }
 #section-3 button {
   padding: 16px 32px;
@@ -275,6 +282,7 @@
   border-radius: 50px;
   background: #fff;
   border: none;
+  font-size: 20px;
 }
 .feedback button {
   width: 210px;
@@ -283,6 +291,9 @@
   background: #f00;
   flex-shrink: 0;
   border: none;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 30px;
 }
 /* footer section related styles */
 .footer {
