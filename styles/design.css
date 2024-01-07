@@ -96,7 +96,6 @@
   background-repeat: no-repeat;
   width: 1320px;
   height: 600px;
-  margin: 50px;
   margin-left: 115px;
   margin-right: 140px;
   border-radius: 16px;
@@ -126,19 +125,62 @@
   padding-left: 10px;
 }
 .section-2-img {
-    width: 400px;
-    height: 464.662px;
-    padding-top: 68px;
-    padding-bottom: 68px;
+  width: 400px;
+  height: 464.662px;
+  padding-top: 68px;
+  padding-bottom: 68px;
 }
 .btn {
-    color: #FFF;
-    text-align: center;
-    font-family: 'Inter';
-    font-size: 20px;
-    font-weight: 700;
-    border: none;
-    background-color: transparent;
-    margin-top: 48px;
-    margin-left: 20px;
+  color: #fff;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  background-color: transparent;
+  margin-top: 48px;
+  margin-left: 20px;
+}
+/* section-3 related styles */
+#section-3 {
+  width: 1320px;
+  height: 500px;
+  background: linear-gradient(180deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0));
+  border-radius: 10px;
+  margin-top: 120px;
+  margin-left: 115px;
+  margin-right: 140px;
+}
+.section-3-content {
+  color: #070211;
+  font-family: "Inter";
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  padding-top: 100px;
+  padding-left: 385px;
+  padding-right: 386px;
+  line-height: 56px;
+  margin-bottom: 50px
+}
+.place,
+.date,
+.time {
+  color: #f00;
+}
+.btn-1{
+    padding-left: 575px;
+    padding-right: 576px;
+    padding-bottom: 110px;
+}
+#section-3 button {
+  padding: 16px 32px;
+  border-radius: 8px;
+  background: #f00;
+  color: #fff;
+  text-align: center;
+  font-family: 'Inter';
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
 }
