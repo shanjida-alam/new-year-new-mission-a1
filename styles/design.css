@@ -57,6 +57,10 @@
   align-content: center;
   background: #fff;
 }
+.discount-info{
+  align-items: center;
+  width: 1511px;
+}
 .discount-title {
   color: #f00;
   text-align: center;
