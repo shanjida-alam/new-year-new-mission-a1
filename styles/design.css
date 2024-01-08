@@ -277,6 +277,84 @@
   height: 140px;
   padding-top: 30px;
 }
+/* section-5 related styles */
+#section-5 {
+  width: 1600px;
+  height: 1000px;
+  background: #fff;
+  margin-top: 130px;
+}
+.section-5-content {
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.section-5-content-header {
+  text-align: center;
+}
+.section-5-content-header h4 {
+  color: #070211;
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 500;
+}
+.section-5-content-header h2 {
+  color: #f00;
+  text-align: center;
+  font-size: 72px;
+  font-weight: 900;
+}
+.section-5-content-header h2 .sale {
+  color: #070211;
+  font-size: 72px;
+  font-weight: 900;
+}
+.section-5-content-header p {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  width: 1070px;
+  margin-top: 20px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 20px;
+}
+.section-5-image {
+  display: flex;
+  justify-content: center;
+  margin-left: 603px;
+}
+.sec-5-img-1 {
+  width: 230px;
+  height: 140px;
+  margin-top: 288px;
+  right: 50%;
+  left: 50%;
+  transform: translate(50, 50) rotate(355deg);
+}
+.sec-5-img-3 {
+  width: 420px;
+  height: 433px;
+  border-radius: 16px 16px 0px 0px;
+  background: lightgray;
+}
+.sec-5-img-2 {
+  width: 245px;
+  height: 245px;
+  top: 50%;
+  left: 50%;
+  transform: translate(60%, 60%) rotate(355deg);
+}
+.sec-5-img-4 {
+  width: 1449px;
+  height: 229px;
+  border-radius: 16px 0px 16px 16px;
+  margin-left: 50px;
+  background: #f00;
+}
 /* section-6 related styles */
 #section-6 {
   background: #fff;
@@ -379,6 +457,9 @@
   color: #fff;
   font-size: 25px;
   font-weight: 30px;
+}
+.feedback button:hover{
+  background-color: rgba(255, 0, 0, 0.159);
 }
 /* footer section related styles */
 .footer {
