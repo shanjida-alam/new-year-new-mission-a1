@@ -8,6 +8,7 @@
   font-family: "Merriweather", serif;
 }
 #section-3,
+#section-4,
 #section-7 {
   width: 1320px;
   height: 500px;
@@ -57,7 +58,7 @@
   align-content: center;
   background: #fff;
 }
-.discount-info{
+.discount-info {
   align-items: center;
   width: 1511px;
 }
@@ -155,8 +156,8 @@
   margin-top: 48px;
   margin-left: 20px;
 }
-.btn:hover{
-    cursor: all-scroll;
+.btn:hover {
+  cursor: all-scroll;
 }
 /* section-3 related styles */
 .section-3-content {
@@ -181,8 +182,8 @@
   padding-right: 576px;
   padding-bottom: 110px;
 }
-#section-3 button:hover{
-    background-color: rgba(255, 0, 0, 0.39);
+#section-3 button:hover {
+  background-color: rgba(255, 0, 0, 0.39);
 }
 #section-3 button {
   padding: 16px 32px;
@@ -194,6 +195,87 @@
   font-size: 20px;
   font-weight: 700;
   border: none;
+}
+/* section-4 related styles */
+#section-4 {
+  background: #fff;
+}
+.section-4-content {
+  display: flex;
+  justify-content: end;
+  width: 1320px;
+  height: 455px;
+}
+.offer-content {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.offer-content h3 {
+  color: #f00;
+  text-align: left;
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 500;
+}
+.offer-content h2 {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+}
+.offer-content p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  width: 393px;
+}
+.offer-image {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 100%;
+  width: 100%;
+}
+.offer-image-1 {
+  border-radius: 460px;
+  border: 10px solid #f00;
+  width: 375px;
+  height: 395px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 100px;
+  padding: 20px 20px 20px 20px;
+}
+.offer-image img {
+  width: 375px;
+  height: 395px;
+  border-radius: 365px;
+  background: lightgray;
+}
+.offer-content-1 h2 {
+  color: #f00;
+  font-family: "Inter";
+  font-size: 48px;
+  font-weight: 700;
+}
+.offer-content-1 {
+  padding-top: 40px;
+}
+.offer-content-1 p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter";
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  width: 380px;
+}
+.offer-content-1 img {
+  width: 140px;
+  height: 140px;
+  padding-top: 30px;
 }
 /* section-6 related styles */
 #section-6 {
@@ -354,7 +436,7 @@
   display: flex;
   justify-content: space-around;
   color: #fff;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-size: 24px;
   font-weight: 500;
   margin-top: 60px;
