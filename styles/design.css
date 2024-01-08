@@ -360,10 +360,10 @@
   background: #fff;
   width: 1320px;
   height: 500px;
-  margin-top: 120px;
+  margin-top: 50px;
   margin-left: 115px;
   margin-right: 140px;
-  margin-bottom: 120px;
+  margin-bottom: 150px;
 }
 #section-6 .section-6-title h3 {
   color: #f00;
@@ -400,7 +400,7 @@
 }
 /* section-7 related styles */
 #section-7 {
-  margin-top: 700px;
+  margin-top: 750px;
 }
 #section-7 img {
   width: 150px;
@@ -466,7 +466,7 @@
   width: 1600px;
   height: 609px;
   background: #070211;
-  margin-top: 120px;
+  margin-top: 125px;
 }
 .footer-content-1 {
   display: flex;
